@@ -7,7 +7,7 @@ require("dotenv").config()
 const PORT=process.env.PORT||4000;
 
 app.use(cors({
-  origin: "https://rental-vechical-frontend-hucn.vercel.app",
+  origin: ["https://rental-vechical-frontend-hucn.vercel.app", "http://localhost:3000"],
   credentials: true
 }));
 app.use(express.json());
