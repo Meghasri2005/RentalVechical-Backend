@@ -1,0 +1,62 @@
+# ========================
+# Node Modules
+# ========================
+node_modules/
+server/node_modules/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.*
+
+server/.env
+
+# ========================
+# Logs
+# ========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# Build folders
+# ========================
+build/
+dist/
+client/build/
+
+# ========================
+# MongoDB local files
+# ========================
+*.mongodb
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# Optional: Ignore uploads
+# ========================
+uploads/
+public/uploads/
+
+# ========================
+# Coverage folder
+# ========================
+coverage/
+
+# ========================
+# Temporary files
+# ========================
+.tmp/
+.temp/
