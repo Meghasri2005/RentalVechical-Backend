@@ -517,8 +517,8 @@ const getVechical=async(req,res)=>{
 
             })}
         
-        const Vech=await Vechical.findById(id)
-        if(!id){
+        const Vech = await Vechical.findById(id)
+        if(!Vech){
             return res.json({
                 success:false,
                 message:"Vechical is not there"
